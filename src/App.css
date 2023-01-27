@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+  height: 100vh;
+  background-image: url(https://bleedingcool.com/wp-content/uploads/2020/04/evvjpmgu8aaeq2q.jpg);
+  background-size: 1000px;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +43,46 @@
     transform: rotate(360deg);
   }
 }
+
+  .starshiplist {
+    background-color: #ffe81f;
+    border-radius: 20px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    /* display: inline-block; */
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 20px 100px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-family: 'Star Wars', sans-serif;
+    border: 1px solid black;
+    height: 100px;
+    width: 150px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .starshiplist:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
+  a {
+    color: black;
+  }
+
+  .starshiplistheader {
+    text-align: center;
+    font-family: 'Star Wars', sans-serif;
+    color: white;
+    font-size: x-large;
+
+  }
