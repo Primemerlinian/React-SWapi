@@ -17,7 +17,7 @@ const StarshipPage = () => {
 
   return (
     <>
-      <div className="starship-page-container">
+      <div className="starshippage">
         {getStarshipPage.name ? (
           <>
             <h2>Name:{starshipPage.name}</h2>
